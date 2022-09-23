@@ -1,6 +1,5 @@
-.masonry {
-  margin: 1.5em auto;
-  column-gap: 1.5em;
+.container-fluid {
+ justify-content: center;
 }
 
 .item {
@@ -14,9 +13,22 @@
   width: 100%;
 }
 
+.attribution > a {
+  font-size: 5px;
+}
+
+.attribution {
+  font-size: 5px;
+}
+
 .tutor {
-  margin-right: 5%;
-  margin-left: 5%;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  justify-content: center;
+} 
+
+.form {
+  padding: 5px;
+}
+
+.bodystyle {
+  padding: 30px;
 }
