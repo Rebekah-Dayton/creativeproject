@@ -64,7 +64,23 @@ body {
   padding: 30px;
 }
 
-.btn {
+.submit {
     background-color: darkgreen;
     border-color: darkgreen;
+}
+
+.card {
+    background-color: #68766d;
+}
+
+.btn {
+    color: black;
+}
+
+.btn:hover {
+    color: darkgray;
+}
+
+.card-body {
+    background-color: lightgray;
 }
