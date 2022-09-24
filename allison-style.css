@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Comic Sans MS", "Times New Roman", serif;
 }
 
 body {
@@ -68,5 +69,13 @@ body {
 
 .bodystyle {
   padding: 30px;
+<<<<<<< HEAD
 >>>>>>> ab651ea82c7cd442e439f8f80874cfba8cde2ce8
+=======
+}
+
+.btn {
+    background-color: darkgreen;
+    border-color: darkgreen;
+>>>>>>> e0e518682bd8dca9434e78f8c420480f547a5eef
 }
