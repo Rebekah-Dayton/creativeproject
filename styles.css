@@ -1,3 +1,7 @@
+* {
+  font-family: "Comic Sans MS", "Times New Roman", serif;
+}
+
 .container-fluid {
  justify-content: center;
 }
@@ -34,18 +38,4 @@ body {
 
 .bodystyle {
   padding: 30px;
-}
-
-.bg-light {
-  background-color: #4d5d53 !important;
-}
-
-.nav-item-nav-link {
-    color: #fdf5e6;
-    padding: 20px;
-}
-
-.nav-item-nav-link:hover,
-.nav-item-nav-link:visited:hover {
-    color: #66b2b2;
 }
