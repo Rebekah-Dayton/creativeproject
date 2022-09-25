@@ -48,16 +48,106 @@ body {
     box-shadow: 0px -2px 2px rgba(34,34,34,0.6);
 }
 
-<<<<<<< HEAD
 .become-title {
     display: flex;
     justify-content: center;
     text-align: center;
     color: #4d5d53;
-=======
-.attribution > a {
-  font-size: 5px;
+    font-size: 5px;
 }
+
+.form-group,
+.form-control {
+    justify-content: center;
+    width: 500;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-group,
+.list-group-flush,
+.list-group-item {
+    justify-content: center;
+    width: 1000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Mobile Styles*/
+@media only screen and (max-width: 400px) {
+    .main-logo,
+    .bg-light,
+    .about-us,
+    .become-title,
+    .form-control,
+    .list-group,
+    .list-group-flush,
+    .list-group-item,
+    .card-body,
+    .card,
+    .bodystyle,
+    .form,
+    .attribution{
+        width: 70%;
+    }
+    
+    
+}
+
+/*Tablet Styles*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .main-logo,
+    .about-us,
+    .become-title,
+    .form-control,
+    .list-group,
+    .list-group-flush,
+    .list-group-item,
+    .card-body,
+    .card,
+    .bodystyle,
+    .form,
+    .attribution{
+            width: 80%;
+        }
+    }
+
+/*Desktop Styles*/
+@media only screen and (min-width: 961px) {
+    .main-logo,
+    .about-us,
+    .become-title,
+    .form-control,
+    .list-group,
+    .list-group-flush,
+    .list-group-item,
+    .card-body,
+    .card,
+    .bodystyle,
+    .form,
+    .attribution{
+            width: 100%;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .attribution {
   font-size: 5px;
@@ -69,13 +159,25 @@ body {
 
 .bodystyle {
   padding: 30px;
-<<<<<<< HEAD
->>>>>>> ab651ea82c7cd442e439f8f80874cfba8cde2ce8
-=======
+}
+
+.submit {
+    background-color: darkgreen;
+    border-color: darkgreen;
+}
+
+.card {
+    background-color: #68766d;
 }
 
 .btn {
-    background-color: darkgreen;
-    border-color: darkgreen;
->>>>>>> e0e518682bd8dca9434e78f8c420480f547a5eef
+    color: black;
+}
+
+.btn:hover {
+    color: darkgray;
+}
+
+.card-body {
+    background-color: lightgray;
 }
